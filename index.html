@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ghaffar Sons | Online Shopping</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <style>
+        .product-card:hover { transform: translateY(-5px); }
+        .whatsapp-float {
+            position: fixed; bottom: 20px; right: 20px;
+            background: #25d366; color: white; padding: 12px 25px;
+            border-radius: 50px; z-index: 1000; box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            display: flex; align-items: center; gap: 8px; font-weight: bold;
+        }
+    </style>
+</head>
+<body class="bg-gray-50 text-gray-900">
+
+    <!-- Top Bar -->
+    <div class="bg-[#1a2e35] text-white text-[10px] md:text-xs py-2 text-center uppercase tracking-widest font-bold">
+        🚚 FREE DELIVERY on all Advance Payment orders!
+    </div>
+
+    <!-- Navbar -->
+    <nav class="bg-white border-b sticky top-0 z-50 p-4 shadow-sm">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-black tracking-tighter text-blue-900 uppercase">GHAFFAR SONS</h1>
+            <div class="flex items-center gap-2">
+                <i class="fas fa-phone-alt text-green-600 text-sm"></i>
+                <span class="text-sm font-bold">03435727215</span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container mx-auto py-12 px-4">
+        
+        <!-- Product Grid -->
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            
+            <!-- Product 1 -->
+            <div class="product-card bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm transition-all duration-300">
+                <div class="h-64 bg-gray-100 relative">
+                    <img src="https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=500" class="w-full h-full object-cover" alt="Product">
+                    <div class="absolute top-4 left-4 bg-green-600 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg uppercase">Free Shipping (Advance)</div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 uppercase text-gray-800">Premium Sport Shoes</h3>
+                    
+                    <div class="space-y-3 bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                        <!-- COD Column -->
+                        <div class="flex justify-between items-center border-b pb-2">
+                            <span class="text-xs font-bold text-gray-500 uppercase">Cash on Delivery</span>
+                            <div class="text-right">
+                                <p class="text-sm font-bold">Rs. 3,000</p>
+                                <p class="text-[10px] text-red-500">+ Rs. 250 Delivery</p>
+                            </div>
+                        </div>
+                        
+                        <!-- Advance Column -->
+                        <div class="flex justify-between items-center pt-1 text-green-700">
+                            <span class="text-xs font-black uppercase">Advance Payment</span>
+                            <div class="text-right">
+                                <p class="text-2xl font-black">Rs. 3,000</p>
+                                <p class="text-[10px] font-bold uppercase tracking-tighter">No Delivery Charges</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/923435727215?text=I%20want%20to%20order%20Premium%20Sport%20Shoes.%20I%20will%20pay%20Advance%20for%20Free%20Delivery." 
+                       class="block w-full text-center mt-6 bg-[#1a2e35] text-white py-4 rounded-2xl font-bold hover:bg-black transition-all">
+                        ORDER ON WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+            <!-- Product 2 -->
+            <div class="product-card bg-white rounded-3xl border border-gray-200 overflow-hidden shadow-sm transition-all duration-300">
+                <div class="h-64 bg-gray-100 relative">
+                    <img src="https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=500" class="w-full h-full object-cover" alt="Product">
+                    <div class="absolute top-4 left-4 bg-green-600 text-white text-[10px] font-black px-3 py-1 rounded-full shadow-lg uppercase">Free Shipping (Advance)</div>
+                </div>
+                <div class="p-6">
+                    <h3 class="text-xl font-bold mb-4 uppercase text-gray-800">Smart Wrist Watch</h3>
+                    
+                    <div class="space-y-3 bg-gray-50 p-4 rounded-2xl border border-gray-100">
+                        <div class="flex justify-between items-center border-b pb-2">
+                            <span class="text-xs font-bold text-gray-500 uppercase">Cash on Delivery</span>
+                            <div class="text-right">
+                                <p class="text-sm font-bold">Rs. 5,000</p>
+                                <p class="text-[10px] text-red-500">+ Rs. 250 Delivery</p>
+                            </div>
+                        </div>
+                        
+                        <div class="flex justify-between items-center pt-1 text-green-700">
+                            <span class="text-xs font-black uppercase">Advance Payment</span>
+                            <div class="text-right">
+                                <p class="text-2xl font-black">Rs. 5,000</p>
+                                <p class="text-[10px] font-bold uppercase tracking-tighter">No Delivery Charges</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="https://wa.me/923435727215?text=I%20want%20to%20order%20the%20Smart%20Watch.%20I%20will%20pay%20Advance%20for%20Free%20Delivery." 
+                       class="block w-full text-center mt-6 bg-[#1a2e35] text-white py-4 rounded-2xl font-bold hover:bg-black transition-all">
+                        ORDER ON WHATSAPP
+                    </a>
+                </div>
+            </div>
+
+        </div>
+
+        <!-- Payment Info Card -->
+        <div class="max-w-2xl mx-auto bg-white rounded-3xl shadow-xl border border-gray-100 overflow-hidden">
+            <div class="bg-green-600 p-6 text-white text-center">
+                <h3 class="text-xl font-bold">How to get Free Delivery?</h3>
+                <p class="text-sm opacity-90">Pay in advance via EasyPaisa to save Rs. 250</p>
+            </div>
+            
+            <div class="p-8 text-center">
+                <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/df/Easypaisa_logo.png/640px-Easypaisa_logo.png" class="h-8 mx-auto mb-4" alt="Easypaisa">
+                <p class="text-xs font-bold text-gray-400 uppercase tracking-widest">EasyPaisa Account</p>
+                <p class="text-3xl font-mono font-black text-gray-800 mb-4">03435727215</p>
+                
+                <button onclick="navigator.clipboard.writeText('03435727215'); alert('Number Copied!')" class="inline-flex items-center gap-2 text-blue-600 font-bold text-sm mb-8 hover:underline">
+                    <i class="fas fa-copy"></i> COPY ACCOUNT NUMBER
+                </button>
+
+                <div class="bg-gray-50 rounded-2xl p-4 border border-dashed border-gray-300">
+                    <p class="text-sm text-gray-600 italic">Send payment ➔ Take Screenshot ➔ Send to WhatsApp</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Floating WhatsApp -->
+    <a href="https://wa.me/923435727215" class="whatsapp-float">
+        <i class="fab fa-whatsapp text-2xl"></i>
+        <span>Chat with Ghaffar Sons</span>
+    </a>
+
+    <footer class="py-12 text-center text-gray-400 text-xs">
+        <p>&copy; 2026 GHAFFAR SONS | 03435727215</p>
+    </footer>
+
+</body>
+</html>
